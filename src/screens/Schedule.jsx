@@ -55,8 +55,8 @@ function Schedule() {
   return (
     <>
       <Slide props="schedule" />
-      <div className="container schedule">
-        <img src={offers.img} alt={offers.title} />
+      <div className="container-lg row schedule">
+        <img className="image-fluid" src={offers.img} alt={offers.title} />
         <div className="col">
           <h2>
             <span style={{ color: "#d79a19" }}>class</span> schedule

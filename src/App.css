@@ -97,6 +97,7 @@ a:hover {
 .featured {
   height: 100%;
   align-items: center;
+  justify-content: center;
 }
 .featured img {
   opacity: 0.4;
@@ -297,11 +298,11 @@ a:hover {
 .class-box:hover {
   transform: scale(1.05);
 }
-.card_body{
+.card_body {
   position: relative;
   margin: 20px 0;
 }
-.class h5{
+.class h5 {
   position: absolute;
   bottom: -35px;
   left: 17%;
@@ -330,11 +331,11 @@ a:hover {
 .price-box:hover {
   transform: scale(1.05);
 }
-.price_body{
+.price_body {
   position: relative;
   margin: 20px 0;
 }
-.price h5{
+.price h5 {
   position: absolute;
   bottom: -35px;
   left: 24%;
@@ -342,31 +343,29 @@ a:hover {
   padding: 15px 60px;
   cursor: pointer;
 }
-.price-list{
+.price-list {
   position: absolute;
   top: 60px;
   left: 47px;
   text-align: center;
 }
-.price-list h4{
+.price-list h4 {
   font-size: 30px;
   text-transform: uppercase;
   color: #d79a19;
 }
 
-
 /*--------------------------------------slide---------------------------------*/
 
 .slide {
-  background: url(./assets/istockphoto-690667118-612x612.jpg)
-    fixed center;
-    height: 40vh;
-    width: 100%;
+  background: url(./assets/istockphoto-690667118-612x612.jpg) fixed center;
+  height: 40vh;
+  width: 100%;
   background-size: cover;
   background-position: center;
   color: white;
 }
-.slide h1{
+.slide h1 {
   text-align: center;
   margin: auto;
   padding: 130px 0;
@@ -375,7 +374,7 @@ a:hover {
 
 /*-------------------------------------contact--------------------------------------*/
 
-.contact{
+.contact {
   max-width: 750px;
   text-align: left;
   margin: 40px auto;
@@ -383,7 +382,7 @@ a:hover {
   border: 1px solid #eee;
   bottom: 5px;
 }
-.contact button{
+.contact button {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   padding: 8px 20px;
@@ -391,29 +390,29 @@ a:hover {
 
 /*-----------------------------------join form----------------------------------*/
 
-.join-form{
+.join-form {
   padding: 40px 20px;
   text-align: center;
   margin: auto;
 }
-.join-form h2{
+.join-form h2 {
   text-align: center;
   text-transform: uppercase;
 }
-.join-form h5{
+.join-form h5 {
   text-align: center;
 }
-.join-form h6{
+.join-form h6 {
   text-align: center;
 }
-.join-form button{
+.join-form button {
   text-transform: uppercase;
   padding: 10px 30px;
 }
 
 /*---------------------------------------wellcome----------------------------------*/
 
-.wellcome h1{
+.wellcome h1 {
   text-align: center;
   color: green;
   padding: 50px;
@@ -422,37 +421,35 @@ a:hover {
 
 /*-------------------------------schedule---------------------------------*/
 
-.schedule{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.schedule {
   padding: 20px;
+  text-align: center;
   margin: auto;
   align-items: center;
 }
-.schedule p{
+.schedule p {
   text-align: justify;
 }
-.schedule h2{
+.schedule h2 {
   text-align: center;
   text-transform: uppercase;
 }
-.schedule img{
-  width: 500px;
-  height: 350px;
+.schedule img {
+  width: 480px;
+  height: 400px;
   object-fit: cover;
   border: 1px solid #eee;
   padding: 10px;
-  margin: 20px 10px;
+  margin: 20px auto;
   transition: all 0.2s;
 }
-.schedule img:hover{
+.schedule img:hover {
   transform: scale(1.05);
 }
-.schedule h4{
+.schedule h4 {
   text-transform: capitalize;
 }
-.schedule h3{
+.schedule h3 {
   text-align: center;
   background-color: #d79a19;
   margin: 20px 50px;
@@ -463,7 +460,7 @@ a:hover {
   transition: all 0.2s;
   cursor: pointer;
 }
-.schedule h3:hover{
+.schedule h3:hover {
   transform: scale(1.05);
 }
 

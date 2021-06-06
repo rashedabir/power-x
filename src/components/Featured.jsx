@@ -5,9 +5,9 @@ import gym3 from "../assets/gym3.jpg";
 
 function Featured() {
   return (
-    <div className="container justify-content-center text-center mx-auto featured">
+    <div className="container text-center featured" >
       <h2 className="pt-5">FEATURED</h2>
-      <div className="cards">
+      <div className="cards d-flex justify-content-center mx-auto">
         <div className="card bg-dark text-white m-4 featured1">
           <img
             width="100%"
