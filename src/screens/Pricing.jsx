@@ -25,7 +25,7 @@ function Pricing() {
                     <h4 style={{ color: "white" }}> {state.title} </h4>
                     <h4>৳ {state.price} </h4>
                   </div>
-                  <Link to={`/offer/${state._id}`}>
+                  <Link to={`/schedule/${state._id}`}>
                     <h5 className="price_card-title">purchase</h5>
                   </Link>
                 </div>

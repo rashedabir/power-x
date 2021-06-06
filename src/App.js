@@ -8,6 +8,7 @@ import Pricing from "./screens/Pricing";
 import Contact from "./screens/Contact";
 import JoinForm from "./screens/JoinForm";
 import WellCome from "./screens/WellCome";
+import Schedule from "./screens/Schedule";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/classes" component={Classes} />
         <Route exact path="/pricing" component={Pricing} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/schedule/:id" component={Schedule} />
         <Route exact path="/offer/:id" component={JoinForm} />
         <Route exact path="/wellcome" component={WellCome} />
       </Switch>

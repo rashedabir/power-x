@@ -19,7 +19,7 @@ const initialState = {
     },
     {
       _id: "2",
-      title: "basic plane",
+      title: "basic plan",
       price: "1000",
       img: price3,
     },
