@@ -11,13 +11,13 @@ function TrainingProg() {
       <div className="card-group">
         <div className="card-thing card">
           <img src={yoga} alt="yoga" />
-          <div className="card-body">
+          <div>
             <h3>yoga training session</h3>
           </div>
         </div>
         <div className="card-thing card">
           <img src={cardio} alt="cardio" />
-          <div className="card-body">
+          <div>
             <h3>cardio training session</h3>
           </div>
         </div>

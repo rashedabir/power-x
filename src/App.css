@@ -70,10 +70,14 @@ a:hover {
   color: white;
   text-align: left;
   margin: auto;
-  height: 90vh;
+  height: 100%;
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  padding: 140px 0;
+}
+.display-content{
+  margin: 20px 0;
 }
 .display-home h2 {
   text-transform: uppercase;
@@ -83,13 +87,23 @@ a:hover {
   text-transform: capitalize;
   text-align: justify;
 }
-.vid {
-  padding-left: 25px;
-}
 .display-home button {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 10px 20px;
+}
+.vid{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.vid iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*-----------------------------------featured-------------------------------------*/
@@ -179,7 +193,7 @@ a:hover {
   padding: 20px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 90px;
+  bottom: 50px;
   left: 0;
 }
 
@@ -474,6 +488,9 @@ a:hover {
   header ul {
     padding: 10px 0;
   }
+  .display-home{
+    padding: 70px 0;
+  }
 }
 @media (max-width: 720px) {
   header ul {
@@ -506,8 +523,5 @@ a:hover {
   }
   header {
     justify-content: space-between;
-  }
-  .vid {
-    display: none;
   }
 }

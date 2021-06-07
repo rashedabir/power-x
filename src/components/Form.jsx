@@ -8,8 +8,11 @@ function Form({ offers, senEmail }) {
         নাম্বারটিতে "সেন্ড মানি" তে টাকা পাঠিয়ে নিচের ফর্মটি ফিলাপ করে সাবমিট
         করুন...
       </h5>
-      <h6 className="mb-5">
+      <h6>
         bKash Personal No: <strong>01629341869</strong>
+      </h6>
+      <h6 className="mb-5">
+        Total : <strong> {offers.price} ৳</strong>
       </h6>
       <form onSubmit={senEmail}>
         <div className="form-floating mb-3">
@@ -75,7 +78,7 @@ function Form({ offers, senEmail }) {
             type="text"
             className="form-control"
             readOnly
-            value={"Taka " + offers.price}
+            value={"৳ " + offers.price}
             name="price"
             required
           />
